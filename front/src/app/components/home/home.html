@@ -1,0 +1,123 @@
+<!--Navbar-->
+<nav class="bg-white shadow-md px-6 py-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div routerLink="/home" class="text-2xl font-bold text-green-600 cursor-pointer">
+            VetPro
+        </div>
+        <div class="flex items-center gap-4">
+            <button routerLink="/login"
+                class="px-4 py-2 rounded-lg border border-green-500 text-green-600 hover:bg-green-50 transition">
+                Iniciar Sesión
+            </button>
+            <button routerLink="/registro"
+                class="px-4 py-2 rounded-lg bg-green-500 text-white font-semibold hover:bg-green-600 shadow-md transition">
+                Registrarse
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+
+<img class="w-screen h-142 object-cover" src="assets/imagenes/fondo1.jpg" alt="fondo_inicio">
+
+<div class="mt-8 mb-8 p-8">
+    <div class="grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12">
+        <div class="col-span-12">
+            <h1 class="text-center text-4xl font-bold italic">
+                El bienestar de tu mascota es nuestra prioridad
+            </h1>
+        </div>
+    </div>
+
+
+
+    <div class="grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 mt-15 gap-x-10 gap-y-8">
+        <div class="col-span-6 border-green-500 border-2 rounded-xl p-10">
+            <h5 class="text-center text-green-500 text-4xl font-bold">
+                Cuida a tu mascota con la mejor tecnología
+            </h5>
+            <hr class="mb-4 mt-4 border-green-500">
+            <h5 class="text-center text-xl mt-10">
+                Gestiona citas, consulta historiales médicos y accede a servicios veterinarios desde cualquier lugar de forma rápida y segura.
+            </h5>
+            <h5 class="text-center text-xl mt-10">
+                Mantén toda la información de tu mascota organizada en un solo lugar y toma mejores decisiones para su bienestar con acceso inmediato a sus datos.
+            </h5>
+            <div class="flex justify-center mt-10">
+                <button routerLink="/registro"
+                    class="btn-cta bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300">
+                    ¡Únete ahora!
+            </button>
+            </div>
+        </div>
+
+
+
+        <!--Sección 'Servicios'-->
+        <div class="col-span-6">
+            <div class="grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-y-5">
+                <div class="col-span-12 bg-green-600 beneficios p-4 rounded-lg shadow-md">
+                    <h1 class="text-2xl font-bold">
+                        Citas Online
+                    </h1>
+                    <hr class="w-25">
+                    <ul class="list-disc list-outlet pl-6 mt-5">
+                        <li class="text-lg">
+                            Olvídate de las llamadas: reserva en segundos, de forma rápida y sencilla.
+                        </li>
+                    </ul>
+                </div>
+                <div class="beneficios col-span-12">
+                    <div class="p-4 bg-green-600 rounded-lg shadow-md">
+                        <h1 class="text-2xl font-bold">Historial digital</h1>
+                        <hr class="w-25">
+                        <ul class="list-disc list-outlet pl-6 mt-5">
+                            <li class="text-lg">
+                                Accede a las vacunas y consultas desde cualquier lugar, de forma rápida y segura cuando lo necesites.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beneficios col-span-12">
+                    <div class="bg-green-600 p-4 rounded-lg shadow-md">
+                        <h1 class="text-2xl font-bold">
+                            Expertos
+                        </h1>
+                        <hr class="w-25">
+                        <ul class="list-disc list-outlet pl-6 mt-5">
+                            <li class="text-lg">
+                                Conéctate fácilmente con los mejores veterinarios de la zona y recibe una atención confiable.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Seción "Sobre Nosotros"-->
+    <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 mt-40 p-10 bg-gray-100 gap-y-10 gap-x-5">
+        <div class="col-span-6 flex justify-center mt-9">
+            <div class="text-lg text-center">
+                <h1 class="text-3xl font-bold text-green-500 text-center">
+                    Sobre Nosotros
+                </h1>
+                <hr class="border-green-500 w-50 mt-4 mb-4 mx-auto">
+                <p>
+                    En VetPro, conectamos el cuidado veterinario con la tecnología para brindarte una forma más simple y accesible de cuidar a tu mascota. 
+                    Gestiona citas, historial y atención profesional en un solo lugar, con especialistas comprometidos con su bienestar.
+                </p>
+                <br>
+                <p class="font-bold">
+                    En VetPro, no solo simplificamos procesos, también acompañamos cada etapa del cuidado de tu mascota.
+                </p>
+            </div>
+        </div>
+        <div class="col-span-6 flex justify-center">
+            <img src="assets/imagenes/sobre-nosotros.jpg" width="640px" class="rounded-lg shadow-md" alt="sobre-nosotros">
+        </div>
+    </div>
+</div>
