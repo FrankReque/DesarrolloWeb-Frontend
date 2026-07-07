@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://desarrolloweb-backend.onrender.com'
+  apiUrl: 'https://desarrolloweb-backend.onrender.com/api'
 };
